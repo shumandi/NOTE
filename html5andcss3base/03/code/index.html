@@ -3,6 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>index</title>
+    <style>
+        header,nav,main,article,aside,section,footer{
+            border:solid 1px #ccc;
+        }
+        main{
+            float:left;
+            width: 80%;
+        }
+        aside{
+            float:right;
+        }
+        footer{
+            clear: both;
+        }
+    </style>
 </head>
 <body>
 <h1>the page main</h1>
@@ -13,5 +28,38 @@
             <li><a href="https://github.com/shumandi/">GITHUB</a> </li>
         </ul>
     </nav>
+    <main role="main">
+        <article role="main">
+            <h2>One Article</h2>
+            <p>
+                例如，em 元素用于标识强调的文本， cite 元素用于标识对艺术作品、电影、图书 等内容的引用。
+                浏览器通常会为这些文本元素添加不同 的样式，以区别于 通文本。例如，em 和 cite 元素中的文本都是斜体的。又如，code 元素专门用来格式化脚本或程序中的代码， 该元素中的文本默认使用等宽字体。
+                内容显示的样子与为其使用的标记没有 关系。因此，不应该为了让文字变为斜体就 使用 em 或 cite，添加样式是 CSS 的事情。
+                例如，em 元素用于标识强调的文本， cite 元素用于标识对艺术作品、电影、图书 等内容的引用。
+                浏览器通常会为这些文本元素添加不同 的样式，以区别于 通文本。例如，em 和 cite 元素中的文本都是斜体的。又如，code 元素专门用来格式化脚本或程序中的代码， 该元素中的文本默认使用等宽字体。
+                内容显示的样子与为其使用的标记没有 关系。因此，不应该为了让文字变为斜体就 使用 em 或 cite，添加样式是 CSS 的事情。
+                例如，em 元素用于标识强调的文本， cite 元素用于标识对艺术作品、电影、图书 等内容的引用。
+                浏览器通常会为这些文本元素添加不同 的样式，以区别于 通文本。例如，em 和 cite 元素中的文本都是斜体的。又如，code 元素专门用来格式化脚本或程序中的代码， 该元素中的文本默认使用等宽字体。
+                内容显示的样子与为其使用的标记没有 关系。因此，不应该为了让文字变为斜体就 使用 em 或 cite，添加样式是 CSS 的事情。
+            </p>
+            <footer>
+                <p>这是文章的附属信息</p>
+            </footer>
+        </article>
+    </main>
+    <aside role="complementary">
+        <h1>侧边栏</h1>
+        <ul>
+            <li>条目</li>
+            <li>条目</li>
+            <li>条目</li>
+            <li>条目</li>
+            <li>条目</li>
+            <li>条目</li>
+        </ul>
+    </aside>
+    <footer role="contentinfo">
+        页脚
+    </footer>
 </header></body>
 </html>
